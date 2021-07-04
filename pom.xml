@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.9.RELEASE</version>
+        <version>2.1.17.RELEASE</version>
     </parent>
     <groupId>com.linkedbear</groupId>
     <artifactId>spring-boot-source-analysis-code</artifactId>
@@ -46,6 +46,18 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         -->
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.1.18.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.5</version>
+        </dependency>
     </dependencies>
 
     <build>
